@@ -1,6 +1,23 @@
+ans = input("what will you want to do S or A : ")
+ 
+
+
+
 x = float( input("insert first num :"))
 y = float( input("insert second num :"))
 
-result = x + y
+if ans == "S":
+   result = x - y
+   print (f"{result}")
 
-print(f"{result}")
+
+elif ans == "A":
+    result = x + y
+    print (f"{result}")
+
+
+else:
+    print ("recogn fmt")
+
+
+
